@@ -1,40 +1,37 @@
-## 🔍 Solution Overview
+# 🏛️ Claudio - Asistente Imperial de Arquitectura de Software
 
-#### 📂 [admission/](admission/)
+## Descripción
 
-Materials for the admission process, including forms and informational sections.
+Claudio es un asistente especializado en arquitectura de software y diseño UML, inspirado en la figura de un Emperador Romano. Su misión es guiar a los desarrolladores en la transformación de ideas conceptuales en arquitecturas sólidas y MVPs bien estructurados, alineados con las políticas públicas de IA en Colombia y las mejores prácticas internacionales.
 
-- [`form/`](admission/form/): forms used in the admission process.
-- [`memes/`](admission/memes/): funny images related to the competition.
+## Características principales
 
-#### 📁 [community/](community/)
+- **Diseño de arquitecturas UML:** Diagramas de casos de uso, clases, componentes y despliegue, siguiendo estándares oficiales.
+- **Metodología estructurada:** Progresión lógica desde el análisis de requerimientos hasta la validación arquitectónica.
+- **Alineación documental:** Basado exclusivamente en fuentes oficiales y guías metodológicas.
+- **Facilitador de ideas:** Claudio orienta y pregunta, pero no impone soluciones; el aprendiz es el protagonista del diseño.
+- **Exportación técnica:** Genera especificaciones en JSON y código PlantUML para facilitar la documentación y visualización.
 
-Resources for the community, shaping the look and feel of virtual spaces.
+## Archivos incluidos
 
-- [`github/`](community/github/): this platform will be used as a learning lab.
-- [`meet/`](community/meet/): live streaming.
-- [`spotify/`](community/spotify/): all the assets related to "Bitácora Sintética".
-- [`suno/`](community/meet/): this AI was used to cread the opening theme for the podcast.
-- [`whatsapp/`](community/whatsapp/): WhatsApp groups and resources.
+- `instruction_claudio.md`: Manual completo de funcionamiento y reglas del asistente.
+- `response_claudio.json`: Estructura de referencia para registrar la arquitectura diseñada.
+- `response_claudio.schema.json`: Esquema de validación para la estructura JSON.
+- Carpeta `knowledge/`: Documentos oficiales y guías metodológicas de apoyo.
 
-#### 📁 [gpt/](gpt/)
+## Uso recomendado
 
-AI assistants and materials related to the Synthetic Team.
+1. Inicia la conversación con Claudio siguiendo el saludo y las preguntas de activación.
+2. Avanza por el menú arquitectónico para explorar, resumir o generar diagramas UML.
+3. Utiliza los documentos de apoyo para fundamentar cada decisión técnica.
+4. Exporta la arquitectura en formato JSON validado y código PlantUML para visualización.
 
-- [`ada/`](gpt/ada/): advice about the tech stack used by the teams.
-- [`alan/`](gpt/alan/): synthetic jury that evaluates tech requirements.
-- [`eleanor/`](gpt/eleanor/): advice about presenting the MVP in the AI Arena.
-- [`leonardo/`](gpt/leonardo/): answers frequent questions from participants.
-- [`magnus/`](gpt/magnus/): profiles the social and technical skills of participants.
-- [`quiliano/`](gpt/quiliano/): guides the ideation of AI-powered products.
+## Restricciones y buenas prácticas
 
-#### 📁 [roadmap/](roadmap/)
+- Claudio nunca inventa reglas ni información; todo debe estar respaldado por la documentación oficial.
+- El diseño arquitectónico debe reflejar las decisiones y el razonamiento del aprendiz.
+- Las salidas técnicas y diagramas deben cumplir con los estándares UML y las políticas públicas de IA.
 
-This folder contains everything used to create the illustrated roadmap for the competition.
+---
 
-- [`assets/`](roadmap/assets/): graphic elements added layer by layer.
-- [`deck/`](roadmap/deck/): assets used in the presentation deck.
-- [`layers/`](roadmap/layers/): prompts and intermediate images organized by generation.
-- [`reference/`](roadmap/reference/): [sketches and reference photos](roadmap/reference/photo_whiteboard_step6.jpg).
-- [`tests/`](roadmap/tests/): initial conceptual tests.
-- [`video/`](roadmap/video/): assets used in the offline-recording.
+**Este asistente está diseñado para elevar la calidad y rigor metodológico en la construcción de arquitecturas de software en
